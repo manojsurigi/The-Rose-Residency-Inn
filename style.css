@@ -1,0 +1,129 @@
+
+body{
+    background-color: #F2F1E6;
+}
+
+.bgc{
+    background-color: #002B5B;
+}
+
+.textc{
+    color: #FFD700;
+}
+
+.nav-link:hover{
+    transition: background-color 0.5s ease-in-out;
+    color: goldenrod !important;
+    
+}
+
+.bg_image_main {
+  background-image: linear-gradient(rgb(64, 54, 54), rgba(88, 74, 74, 0.515)), url(/images/ba_image.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+}
+
+@media (max-width: 800px) {
+  .iconss {
+    display: none;
+  }
+}
+
+.slide-in-left {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: slideRight 0.5s ease-out forwards;
+}
+
+@keyframes slideRight {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.btn-main:hover{
+    width: 180px;
+    background-color: #dc3545;
+}
+
+nav{
+    position: fixed;
+}
+ 
+
+.fixed-bottom-left {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9998;
+}
+.fixed-bottom-left-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+/* Typing animation */
+.whatsapp-btn .typing-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #fff; 
+  animation: typing 3s steps(15) infinite, blinkCaret 0.75s step-end infinite;
+  background: transparent;
+  color: white;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 12ch; }
+}
+
+@keyframes blinkCaret {
+  50% { border-color: transparent; }
+  100% { border-color: #fff; }
+}
+
+
+.zoom-hover{
+  transition: transform 0.5s ease;
+}
+
+
+.zoom-hover:hover{
+  transform: scale(1.1);
+}
+
+.why-choose-us{
+  margin-top: 50px !important;
+}
+
+
+.why-choose-us-bg:hover{
+  background-color: #CCA772;
+}
+
+    .carousel-item img {
+      height: 80vh;
+      object-fit: cover;
+    }
+
+
+    .icon-hover:hover{
+      background-color: #CCA772 !important;
+    }
+
+    .foot-bg{
+     background-color: #2C3E50;
+    }
+
+    .foot-colo{
+      color: goldenrod !important;
+    }
+
+    .ham-bg{
+      background-color: #3b3f43;
+    }

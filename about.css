@@ -1,0 +1,13 @@
+.bg_image_about{
+  background-image: linear-gradient(rgb(64, 54, 54), rgba(88, 74, 74, 0.515)), url(/images/family_room.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+}
+
+.bg_image_gallary{
+  background-image: linear-gradient(rgb(64, 54, 54), rgba(88, 74, 74, 0.515)), url(/images/residancial.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+}
